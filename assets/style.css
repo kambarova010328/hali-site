@@ -249,6 +249,7 @@ button{font-family:inherit;cursor:pointer;border:none}
   padding:0;
 }
 .banner-slide{
+  position:relative;
   display:none;
   width:100%;
 }
@@ -257,6 +258,25 @@ button{font-family:inherit;cursor:pointer;border:none}
   width:100%;
   height:auto;
   display:block;
+}
+.banner-cta-hint{
+  position:absolute;
+  left:23.5%;
+  top:81%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+  font-size:22px;
+  font-weight:800;
+  text-shadow:0 1px 4px rgba(0,0,0,.45);
+  animation:bannerCtaBounce 1.3s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes bannerCtaBounce{
+  0%,100%{transform:translate(-50%,-50%) translateX(0)}
+  50%{transform:translate(-50%,-50%) translateX(7px)}
+}
+@media(max-width:640px){
+  .banner-cta-hint{font-size:14px;left:26%;top:83%}
 }
 .banner-dots{
   position:absolute;
