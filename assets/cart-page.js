@@ -34,6 +34,7 @@ function renderCartPage() {
       '<div class="cart-item-thumb"><img src="' + img + '" alt="' + p.name + '"></div>' +
       '<div class="cart-item-info">' +
         '<a href="product.html?id=' + id + '"><h3>' + p.name + '</h3></a>' +
+        (p.discount && p.oldPrice ? '<span class="discount-badge-sm">-' + p.discount + '%</span> ' : '') +
         (typeof stockBadgeHTML === 'function' ? stockBadgeHTML(id) : '') +
         '<div class="qty-stepper" style="margin-top:8px">' +
           '<button type="button" class="cart-qty-minus">−</button>' +
