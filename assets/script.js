@@ -26,6 +26,38 @@ document.addEventListener('DOMContentLoaded', function () {
     setActive();
   }
 
+  // banner carousel
+  var slides = document.querySelectorAll('.banner-slide');
+  var dots = document.querySelectorAll('.banner-dot');
+  if (slides.length > 1) {
+    var current = 0;
+    var timer = null;
+
+    var goTo = function (index) {
+      slides[current].classList.remove('active');
+      dots[current].classList.remove('active');
+      current = (index + slides.length) % slides.length;
+      slides[current].classList.add('active');
+      dots[current].classList.add('active');
+    };
+
+    var restart = function () {
+      clearInterval(timer);
+      timer = setInterval(function () { goTo(current + 1); }, 5000);
+    };
+
+    dots.forEach(function (dot, i) {
+      dot.addEventListener('click', function () { goTo(i); restart(); });
+    });
+
+    var prevBtn = document.querySelector('.banner-arrow.prev');
+    var nextBtn = document.querySelector('.banner-arrow.next');
+    if (prevBtn) prevBtn.addEventListener('click', function () { goTo(current - 1); restart(); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { goTo(current + 1); restart(); });
+
+    restart();
+  }
+
   // contact form fake submit
   var form = document.querySelector('.contact-form form');
   if (form) {
