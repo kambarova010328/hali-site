@@ -45,6 +45,69 @@
   </div>
 </section>
 
+<section class="locations-map-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">География HALI</span>
+      <h2>Склады и шоурумы</h2>
+      <p>Работаем в Казахстане и России — нажмите на точку, чтобы увидеть карту города.</p>
+    </div>
+
+    <figure class="locations-map">
+      <svg viewBox="0 0 800 460" role="img" aria-label="Карта складов и шоурумов HALI: Алматы, Астана, Москва, Санкт-Петербург">
+        <path class="land-shape" d="M 160,135
+          Q 180,90 230,70
+          Q 280,50 340,55
+          Q 400,60 460,75
+          Q 520,90 570,115
+          Q 620,140 640,180
+          Q 660,220 645,260
+          Q 630,300 615,330
+          Q 600,360 570,380
+          Q 540,400 500,405
+          Q 460,410 420,400
+          Q 380,390 340,375
+          Q 300,360 260,340
+          Q 220,320 190,290
+          Q 160,260 150,220
+          Q 140,180 160,135 Z"/>
+
+        <text x="470" y="150" class="map-country-label">РОССИЯ</text>
+        <text x="470" y="345" class="map-country-label map-country-label-sm">КАЗАХСТАН</text>
+
+        <defs>
+          <path id="map-pin-shape" d="M0,2 C-9,2 -16,-5 -16,-14 C-16,-24 -8,-32 0,-32 C8,-32 16,-24 16,-14 C16,-5 9,2 0,2 Z"/>
+        </defs>
+
+        <a href="#map-spb" class="map-pin">
+          <use href="#map-pin-shape" x="300" y="100"/>
+          <circle cx="300" cy="86" r="4.5" fill="#fff"/>
+          <text x="316" y="90" class="map-pin-label">Санкт-Петербург</text>
+        </a>
+
+        <a href="#map-moscow" class="map-pin">
+          <use href="#map-pin-shape" x="345" y="165"/>
+          <circle cx="345" cy="151" r="4.5" fill="#fff"/>
+          <text x="361" y="155" class="map-pin-label">Москва</text>
+        </a>
+
+        <a href="#map-astana" class="map-pin">
+          <use href="#map-pin-shape" x="480" y="292"/>
+          <circle cx="480" cy="278" r="4.5" fill="#fff"/>
+          <text x="496" y="282" class="map-pin-label">Астана</text>
+        </a>
+
+        <a href="#map-almaty" class="map-pin">
+          <use href="#map-pin-shape" x="558" y="358"/>
+          <circle cx="558" cy="344" r="4.5" fill="#fff"/>
+          <text x="574" y="348" class="map-pin-label">Алматы</text>
+        </a>
+      </svg>
+      <figcaption>4 точки присутствия HALI — 2 в Казахстане, 2 в России</figcaption>
+    </figure>
+  </div>
+</section>
+
 <section>
   <div class="container">
     <div class="contacts-grid">
@@ -99,16 +162,16 @@
           </div>
         </div>
 
-        <div class="map-placeholder mt-40">
+        <div id="map-almaty" class="map-placeholder mt-40">
           <iframe src="https://maps.google.com/maps?q=Алматы,+улица+Сейфуллина+451&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — HALI Алматы"></iframe>
         </div>
-        <div class="map-placeholder mt-40">
+        <div id="map-astana" class="map-placeholder mt-40">
           <iframe src="https://maps.google.com/maps?q=Астана,+улица+Омарова+21/1&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — HALI Астана"></iframe>
         </div>
-        <div class="map-placeholder mt-40">
+        <div id="map-moscow" class="map-placeholder mt-40">
           <iframe src="https://maps.google.com/maps?q=Москва&t=&z=10&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — склад HALI Москва"></iframe>
         </div>
-        <div class="map-placeholder mt-40">
+        <div id="map-spb" class="map-placeholder mt-40">
           <iframe src="https://maps.google.com/maps?q=Санкт-Петербург&t=&z=10&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — склад HALI Санкт-Петербург"></iframe>
         </div>
       </div>
