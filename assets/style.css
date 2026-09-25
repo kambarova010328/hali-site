@@ -801,8 +801,44 @@ section{
   color:var(--text-muted);
   font-size:11px;
 }
+.price-tag.has-discount{color:#d43b3b}
+.price-old-row{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  margin-bottom:2px;
+}
+.price-old{
+  font-size:12px;
+  font-weight:600;
+  color:var(--text-muted);
+  text-decoration:line-through;
+}
+.discount-badge-sm{
+  display:inline-block;
+  background:#d43b3b;
+  color:#fff;
+  font-size:10px;
+  font-weight:800;
+  padding:2px 6px;
+  border-radius:5px;
+  line-height:1.3;
+}
 
-.product-thumb-link{display:block}
+.product-thumb-link{display:block;position:relative}
+.thumb-discount-tag{
+  position:absolute;
+  top:10px;
+  left:10px;
+  background:#d43b3b;
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+  padding:4px 9px;
+  border-radius:7px;
+  box-shadow:0 4px 10px rgba(212,59,59,0.4);
+  z-index:2;
+}
 .product-title-link{color:inherit}
 .product-title-link:hover h3{color:var(--navy-600)}
 .product-actions{
@@ -1185,6 +1221,14 @@ section{
   font-weight:800;
   color:var(--navy-900);
 }
+.pd-price.pd-price-discounted{color:#d43b3b}
+.pd-discount-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:6px;
+}
+.pd-discount-row .price-old{font-size:16px}
 .pd-installment{
   font-size:14px;
   color:var(--text-muted);
