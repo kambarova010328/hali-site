@@ -12,12 +12,16 @@ function pdBuildCard(id, p) {
   const outOfStock = getStock(id) === 'out_of_stock';
   const btnAttrs = outOfStock ? ' disabled' : '';
   const btnText = outOfStock ? 'Нет в наличии' : 'В корзину';
+  const discountTag = (p.discount && p.oldPrice) ? '<span class="thumb-discount-tag">-' + p.discount + '%</span>' : '';
+  const priceHTML = (p.discount && p.oldPrice)
+    ? '<span class="price-tag has-discount"><span class="price-old-row"><span class="price-old">' + formatPrice(p.oldPrice) + '</span><span class="discount-badge-sm">-' + p.discount + '%</span></span>' + formatPrice(p.price) + '<small>' + formatPrice(p.installmentPrice) + ' × ' + p.installmentMonths + ' мес</small></span>'
+    : '<span class="price-tag">' + formatPrice(p.price) + '<small>' + formatPrice(p.installmentPrice) + ' × ' + p.installmentMonths + ' мес</small></span>';
   return (
     '<div class="product-card" data-id="' + id + '">' +
-      '<a href="product.html?id=' + id + '" class="product-thumb-link"><div class="product-thumb"><img src="' + img + '" alt="' + p.name + '" loading="lazy"></div></a>' +
+      '<a href="product.html?id=' + id + '" class="product-thumb-link">' + discountTag + '<div class="product-thumb"><img src="' + img + '" alt="' + p.name + '" loading="lazy"></div></a>' +
       '<div class="product-body">' +
         '<a href="product.html?id=' + id + '" class="product-title-link"><h3>' + p.name + '</h3></a>' +
-        '<div class="product-foot"><span class="price-tag">' + formatPrice(p.price) + '<small>' + formatPrice(p.installmentPrice) + ' × ' + p.installmentMonths + ' мес</small></span>' + stockBadgeHTML(id) + '</div>' +
+        '<div class="product-foot">' + priceHTML + stockBadgeHTML(id) + '</div>' +
         '<div class="product-actions">' +
           '<button class="btn-add-cart"' + btnAttrs + ' onclick="addToCart(\'' + id + '\',1)">' + btnText + '</button>' +
           '<a href="' + p.kaspiUrl + '" target="_blank" rel="noopener" class="mini-btn" title="Купить на Kaspi.kz"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></a>' +
@@ -56,6 +60,12 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('pd-installment').textContent = product.installmentMonths
     ? 'В рассрочку: ' + formatPrice(product.installmentPrice) + ' × ' + product.installmentMonths + ' мес'
     : '';
+
+  if (product.discount && product.oldPrice) {
+    document.getElementById('pd-price').classList.add('pd-price-discounted');
+    document.getElementById('pd-old-price').textContent = formatPrice(product.oldPrice);
+    document.getElementById('pd-discount-row').style.display = 'flex';
+  }
 
   const images = (product.images && product.images.length) ? product.images : ['assets/logo.png'];
   const mainImg = document.getElementById('pd-main-image');
