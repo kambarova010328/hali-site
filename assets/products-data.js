@@ -2,8 +2,10 @@ window.PRODUCTS = {
     "kuhonnaja-moika-hali-6050s-60h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-152055813":  {
                                                                                                   "name":  "Кухонная мойка HALI 6050S 60×50×22 см",
                                                                                                   "category":  "moyki",
-                                                                                                  "price":  36990,
-                                                                                                  "installmentPrice":  3083,
+                                                                                                  "price":  33290,
+                                                                                                  "oldPrice":  36990,
+                                                                                                  "discount":  10,
+                                                                                                  "installmentPrice":  2770,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6050s-60h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-152055813/",
                                                                                                   "images":  [
@@ -457,8 +459,10 @@ window.PRODUCTS = {
     "kuhonnaja-moika-hali-6045z-60h45h22-sm-nerzhavejuschaja-stal-ton-zolotistyi-166610881":  {
                                                                                                   "name":  "Кухонная мойка HALI 6045Z 60×45×22 см",
                                                                                                   "category":  "moyki",
-                                                                                                  "price":  50000,
-                                                                                                  "installmentPrice":  2084,
+                                                                                                  "price":  45000,
+                                                                                                  "oldPrice":  50000,
+                                                                                                  "discount":  10,
+                                                                                                  "installmentPrice":  1880,
                                                                                                   "installmentMonths":  24,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6045z-60h45h22-sm-nerzhavejuschaja-stal-ton-zolotistyi-166610881/",
                                                                                                   "images":  [
@@ -639,8 +643,10 @@ window.PRODUCTS = {
     "kuhonnaja-moika-hali-78h48-78h48h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-162708795":  {
                                                                                                   "name":  "Кухонная мойка HALI 78×48×22 см",
                                                                                                   "category":  "moyki",
-                                                                                                  "price":  41189,
-                                                                                                  "installmentPrice":  3433,
+                                                                                                  "price":  37070,
+                                                                                                  "oldPrice":  41189,
+                                                                                                  "discount":  10,
+                                                                                                  "installmentPrice":  3090,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-78h48-78h48h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-162708795/",
                                                                                                   "images":  [
@@ -730,8 +736,10 @@ window.PRODUCTS = {
     "smesitel-hali-210-latun-tsvet-satin-162831191":  {
                                                           "name":  "Смеситель HALI 210 для кухни",
                                                           "category":  "smesiteli",
-                                                          "price":  26690,
-                                                          "installmentPrice":  2225,
+                                                          "price":  24020,
+                                                          "oldPrice":  26690,
+                                                          "discount":  10,
+                                                          "installmentPrice":  2000,
                                                           "installmentMonths":  12,
                                                           "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-210-latun-tsvet-satin-162831191/",
                                                           "images":  [
@@ -1031,8 +1039,10 @@ window.PRODUCTS = {
     "smesitel-hali-403-nerzhavejuschaja-stal-tsvet-hrom-141058637":  {
                                                                          "name":  "Смеситель HALI 403 для кухни",
                                                                          "category":  "smesiteli",
-                                                                         "price":  9990,
-                                                                         "installmentPrice":  3330,
+                                                                         "price":  8990,
+                                                                         "oldPrice":  9990,
+                                                                         "discount":  10,
+                                                                         "installmentPrice":  3000,
                                                                          "installmentMonths":  3,
                                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-403-nerzhavejuschaja-stal-tsvet-hrom-141058637/",
                                                                          "images":  [
@@ -1526,8 +1536,10 @@ window.PRODUCTS = {
     "hali-dushevoi-nabor-garnitur-101-148326648":  {
                                                        "name":  "HALI душевой набор (гарнитур) 101",
                                                        "category":  "dushevye",
-                                                       "price":  28790,
-                                                       "installmentPrice":  2400,
+                                                       "price":  25910,
+                                                       "oldPrice":  28790,
+                                                       "discount":  10,
+                                                       "installmentPrice":  2160,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-101-148326648/",
                                                        "images":  [
@@ -1768,8 +1780,10 @@ window.PRODUCTS = {
     "hali-dushevoi-nabor-garnitur-103a-148533357":  {
                                                         "name":  "HALI душевой набор (гарнитур) 103A",
                                                         "category":  "dushevye",
-                                                        "price":  49990,
-                                                        "installmentPrice":  4166,
+                                                        "price":  44990,
+                                                        "oldPrice":  49990,
+                                                        "discount":  10,
+                                                        "installmentPrice":  3750,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-103a-148533357/",
                                                         "images":  [
@@ -2247,8 +2261,10 @@ window.PRODUCTS = {
     "hali-ramnaja-installjatsija-g550h-152706543":  {
                                                         "name":  "HALI рамная инсталляция G550H",
                                                         "category":  "installyacii",
-                                                        "price":  129990,
-                                                        "installmentPrice":  5417,
+                                                        "price":  116990,
+                                                        "oldPrice":  129990,
+                                                        "discount":  10,
+                                                        "installmentPrice":  4880,
                                                         "installmentMonths":  24,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-ramnaja-installjatsija-g550h-152706543/",
                                                         "images":  [
@@ -2646,8 +2662,10 @@ window.PRODUCTS = {
     "rakovina-hali-kv01-nad-stiral-noi-mashinoi-kvadratnaja-60h60-sm-mramor-178280206":  {
                                                                                              "name":  "Раковина HALI KV01 над стиральной машиной",
                                                                                              "category":  "rakoviny",
-                                                                                             "price":  49990,
-                                                                                             "installmentPrice":  4166,
+                                                                                             "price":  44990,
+                                                                                             "oldPrice":  49990,
+                                                                                             "discount":  10,
+                                                                                             "installmentPrice":  3750,
                                                                                              "installmentMonths":  12,
                                                                                              "kaspiUrl":  "https://kaspi.kz/shop/p/rakovina-hali-kv01-nad-stiral-noi-mashinoi-kvadratnaja-60h60-sm-mramor-178280206/",
                                                                                              "images":  [
@@ -2804,8 +2822,10 @@ window.PRODUCTS = {
     "hali-zerkalo-20525-70x70-sm-nastennoe-147098553":  {
                                                             "name":  "Зеркало настенное HALI 70×70 см",
                                                             "category":  "aksessuary",
-                                                            "price":  90000,
-                                                            "installmentPrice":  3750,
+                                                            "price":  81000,
+                                                            "oldPrice":  90000,
+                                                            "discount":  10,
+                                                            "installmentPrice":  3375,
                                                             "installmentMonths":  24,
                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/hali-zerkalo-20525-70x70-sm-nastennoe-147098553/",
                                                             "images":  [
