@@ -45,6 +45,27 @@
   </div>
 </section>
 
+<div class="catalog-toolbar">
+  <div class="container">
+    <div class="toolbar-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="catalog-search" placeholder="Поиск по каталогу — модель, размер, цвет...">
+    </div>
+    <div class="toolbar-controls">
+      <select id="catalog-sort">
+        <option value="default">По умолчанию</option>
+        <option value="price-asc">Сначала дешёвые</option>
+        <option value="price-desc">Сначала дорогие</option>
+      </select>
+      <label class="toolbar-checkbox">
+        <input type="checkbox" id="catalog-instock">
+        В наличии
+      </label>
+      <button type="button" id="catalog-reset" class="toolbar-reset" hidden>Сбросить</button>
+    </div>
+  </div>
+</div>
+
 <nav class="catalog-nav">
   <div class="container">
     <a href="#moyki">Мойки</a>
@@ -57,6 +78,9 @@
 </nav>
 
 <div class="container">
+  <div id="catalog-empty" class="catalog-empty" hidden>
+    <p>По вашему запросу ничего не найдено. Попробуйте изменить запрос или сбросить фильтры.</p>
+  </div>
 
   <!-- MOYKI -->
   <section id="moyki" class="catalog-section">
@@ -1350,8 +1374,10 @@
 </a>
 
 <script src="assets/cart.js"></script>
+<script src="assets/products-data.js"></script>
 <script src="assets/stock.js"></script>
 <script src="assets/stock-ui.js"></script>
 <script src="assets/script.js"></script>
+<script src="assets/catalog-filter.js"></script>
 </body>
 </html>
