@@ -65,11 +65,25 @@ document.addEventListener('DOMContentLoaded', function () {
     restart();
   }
 
-  // contact form fake submit
+  // contact form submit via WhatsApp
   var form = document.querySelector('.contact-form form');
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+      var name = document.getElementById('name').value.trim();
+      var phone = document.getElementById('phone').value.trim();
+      var topic = document.getElementById('topic').value;
+      var message = document.getElementById('message').value.trim();
+
+      var lines = ['Заявка с сайта HALI:', ''];
+      lines.push('Имя: ' + name);
+      lines.push('Телефон: ' + phone);
+      lines.push('Интересует: ' + topic);
+      if (message) lines.push('Комментарий: ' + message);
+
+      var text = encodeURIComponent(lines.join('\n'));
+      window.open('https://wa.me/77479615804?text=' + text, '_blank');
+
       var success = document.querySelector('.form-success');
       if (success) {
         success.classList.add('show');
