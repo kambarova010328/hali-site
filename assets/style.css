@@ -739,6 +739,92 @@ section{
   max-width:560px;
 }
 
+/* ---------- Catalog toolbar (search/sort/filter) ---------- */
+.catalog-toolbar{
+  background:var(--bg-card);
+  border-bottom:1px solid #e6e8f2;
+  padding:20px 0;
+}
+.catalog-toolbar .container{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.toolbar-search{
+  position:relative;
+  flex:1;
+  min-width:220px;
+}
+.toolbar-search svg{
+  position:absolute;
+  left:14px;
+  top:50%;
+  transform:translateY(-50%);
+  width:18px;height:18px;
+  stroke:var(--text-muted);
+  pointer-events:none;
+}
+.toolbar-search input{
+  width:100%;
+  padding:11px 14px 11px 40px;
+  border:1.5px solid #e2e4f0;
+  border-radius:10px;
+  font-size:14px;
+  font-family:inherit;
+  background:var(--bg);
+  transition:border-color .2s;
+}
+.toolbar-search input:focus{outline:none;border-color:var(--navy-600)}
+.toolbar-controls{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.toolbar-controls select{
+  padding:10px 14px;
+  border:1.5px solid #e2e4f0;
+  border-radius:10px;
+  font-size:14px;
+  font-family:inherit;
+  background:var(--bg);
+  color:var(--text);
+  cursor:pointer;
+}
+.toolbar-controls select:focus{outline:none;border-color:var(--navy-600)}
+.toolbar-checkbox{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--text);
+  cursor:pointer;
+  white-space:nowrap;
+}
+.toolbar-checkbox input{width:17px;height:17px;accent-color:var(--navy-700);cursor:pointer}
+.toolbar-reset{
+  background:none;
+  color:var(--navy-600);
+  font-size:14px;
+  font-weight:700;
+  padding:8px 2px;
+  white-space:nowrap;
+}
+.toolbar-reset:hover{color:var(--navy-800);text-decoration:underline}
+.catalog-empty{
+  text-align:center;
+  padding:60px 20px;
+  color:var(--text-muted);
+  font-size:15px;
+}
+@media(max-width:640px){
+  .catalog-toolbar .container{flex-direction:column;align-items:stretch}
+  .toolbar-search{min-width:0}
+  .toolbar-controls{justify-content:space-between}
+}
+
 /* ---------- Catalog ---------- */
 .catalog-nav{
   position:sticky;
