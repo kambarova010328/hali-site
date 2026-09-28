@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
   if (toggle && nav) {
     toggle.addEventListener('click', function () {
       nav.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        nav.classList.remove('open');
+        toggle.classList.remove('active');
+      });
     });
   }
 
