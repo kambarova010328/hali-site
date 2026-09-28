@@ -1005,32 +1005,59 @@ section{
 }
 
 .timeline{
-  border-left:2px solid #dfe2f2;
-  margin-left:10px;
-  padding-left:30px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:22px;
+  position:relative;
+}
+.timeline::before{
+  content:"";
+  position:absolute;
+  top:38px;
+  left:12.5%;
+  right:12.5%;
+  height:2px;
+  background:repeating-linear-gradient(90deg,#c7cbe0 0 8px,transparent 8px 18px);
+  z-index:0;
 }
 .timeline-item{
   position:relative;
-  padding-bottom:34px;
+  z-index:1;
+  background:var(--bg-card);
+  border-radius:var(--radius);
+  padding:30px 20px 26px;
+  text-align:center;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(20,26,110,0.05);
+  transition:transform .2s ease, box-shadow .2s ease;
 }
-.timeline-item::before{
-  content:"";
-  position:absolute;
-  left:-37px;top:4px;
-  width:12px;height:12px;
+.timeline-item:hover{
+  transform:translateY(-6px);
+  box-shadow:var(--shadow-hover);
+}
+.timeline-icon{
+  width:56px;
+  height:56px;
   border-radius:50%;
-  background:var(--navy-700);
-  border:3px solid #dfe2f2;
+  background:linear-gradient(135deg,var(--navy-700),var(--navy-500));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 18px;
+  color:#fff;
+  box-shadow:0 8px 18px rgba(20,26,110,0.28);
 }
+.timeline-icon svg{width:24px;height:24px;stroke:var(--white)}
 .timeline-item h4{
   font-size:16px;
   font-weight:700;
   color:var(--navy-900);
-  margin-bottom:4px;
+  margin-bottom:8px;
 }
 .timeline-item p{
   font-size:14px;
   color:var(--text-muted);
+  line-height:1.55;
 }
 
 .delivery-grid{
@@ -1589,6 +1616,8 @@ section{
   .delivery-grid{grid-template-columns:1fr}
   .contacts-grid{grid-template-columns:1fr}
   .about-stats{grid-template-columns:repeat(2,1fr)}
+  .timeline{grid-template-columns:repeat(2,1fr)}
+  .timeline::before{display:none}
   .cta-band{flex-direction:column;text-align:center;padding:40px 30px}
   .product-detail{grid-template-columns:1fr}
   .gallery-main{height:320px}
@@ -1605,4 +1634,5 @@ section{
   .form-row{grid-template-columns:1fr}
   .catalog-section-head{flex-direction:column;align-items:flex-start}
   .advantage-grid{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr}
 }
