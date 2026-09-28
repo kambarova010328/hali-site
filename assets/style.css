@@ -1616,14 +1616,17 @@ section{
   .delivery-grid{grid-template-columns:1fr}
   .contacts-grid{grid-template-columns:1fr}
   .about-stats{grid-template-columns:repeat(2,1fr)}
-  .timeline{grid-template-columns:repeat(2,1fr)}
-  .timeline::before{display:none}
   .cta-band{flex-direction:column;text-align:center;padding:40px 30px}
   .product-detail{grid-template-columns:1fr}
   .gallery-main{height:320px}
   .cart-layout{grid-template-columns:1fr}
   .cart-summary{position:static}
   .pd-specs{grid-template-columns:1fr}
+}
+
+@media(max-width:620px){
+  .timeline{grid-template-columns:repeat(2,1fr)}
+  .timeline::before{display:none}
 }
 
 @media(max-width:560px){
