@@ -1,4 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // reviews carousel
+  var reviewsTrack = document.querySelector('.reviews-grid');
+  if (reviewsTrack) {
+    var prevBtn = document.querySelector('.reviews-arrow.prev');
+    var nextBtn = document.querySelector('.reviews-arrow.next');
+    var scrollByCard = function (dir) {
+      var card = reviewsTrack.querySelector('.review-card');
+      if (!card) return;
+      var gap = parseFloat(getComputedStyle(reviewsTrack).columnGap) || 20;
+      reviewsTrack.scrollBy({ left: dir * (card.getBoundingClientRect().width + gap), behavior: 'smooth' });
+    };
+    if (prevBtn) prevBtn.addEventListener('click', function () { scrollByCard(-1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { scrollByCard(1); });
+  }
+
   // mobile nav toggle
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.main-nav');
