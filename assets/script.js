@@ -14,6 +14,32 @@ document.addEventListener('DOMContentLoaded', function () {
     if (nextBtn) nextBtn.addEventListener('click', function () { scrollByCard(1); });
   }
 
+  // review photo lightbox
+  var reviewPhotos = document.querySelectorAll('.review-photo img');
+  if (reviewPhotos.length) {
+    var overlay = document.createElement('div');
+    overlay.className = 'lightbox-overlay';
+    overlay.innerHTML = '<button class="lightbox-close" aria-label="Закрыть">&times;</button><img alt="">';
+    document.body.appendChild(overlay);
+    var overlayImg = overlay.querySelector('img');
+
+    var closeLightbox = function () { overlay.classList.remove('show'); };
+
+    reviewPhotos.forEach(function (img) {
+      img.addEventListener('click', function () {
+        overlayImg.src = img.src;
+        overlayImg.alt = img.alt || '';
+        overlay.classList.add('show');
+      });
+    });
+    overlay.addEventListener('click', function (e) {
+      if (e.target !== overlayImg) closeLightbox();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  }
+
   // mobile nav toggle
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.main-nav');
