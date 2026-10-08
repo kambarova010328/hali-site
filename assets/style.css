@@ -225,6 +225,8 @@ button{font-family:inherit;cursor:pointer;border:none}
   font-size:22px;
 }
 .map-pin{cursor:pointer}
+.map-pin-static{cursor:default}
+.map-pin-static:hover use{transform:none}
 .map-pin use{
   fill:#d43b3b;
   stroke:#fff;
