@@ -50,11 +50,11 @@
     <div class="section-head">
       <span class="section-eyebrow">География HALI</span>
       <h2>Склады и шоурумы</h2>
-      <p>Работаем в Казахстане и России — нажмите на точку, чтобы увидеть карту города.</p>
+      <p>Работаем в Казахстане, России и Беларуси — нажмите на точку Алматы или Астаны, чтобы увидеть карту города.</p>
     </div>
 
     <figure class="locations-map">
-      <svg viewBox="0 0 800 460" role="img" aria-label="Карта складов и шоурумов HALI: Алматы, Астана, Москва, Санкт-Петербург">
+      <svg viewBox="0 0 800 460" role="img" aria-label="Карта складов и шоурумов HALI: Алматы, Астана, Москва, Санкт-Петербург, Минск">
         <path class="land-shape" d="M 160,135
           Q 180,90 230,70
           Q 280,50 340,55
@@ -74,22 +74,29 @@
 
         <text x="470" y="150" class="map-country-label">РОССИЯ</text>
         <text x="470" y="345" class="map-country-label map-country-label-sm">КАЗАХСТАН</text>
+        <text x="175" y="245" class="map-country-label map-country-label-sm">БЕЛАРУСЬ</text>
 
         <defs>
           <path id="map-pin-shape" d="M0,2 C-9,2 -16,-5 -16,-14 C-16,-24 -8,-32 0,-32 C8,-32 16,-24 16,-14 C16,-5 9,2 0,2 Z"/>
         </defs>
 
-        <a href="#map-spb" class="map-pin">
+        <g class="map-pin map-pin-static">
           <use href="#map-pin-shape" x="300" y="100"/>
           <circle cx="300" cy="86" r="4.5" fill="#fff"/>
           <text x="316" y="90" class="map-pin-label">Санкт-Петербург</text>
-        </a>
+        </g>
 
-        <a href="#map-moscow" class="map-pin">
+        <g class="map-pin map-pin-static">
           <use href="#map-pin-shape" x="345" y="165"/>
           <circle cx="345" cy="151" r="4.5" fill="#fff"/>
           <text x="361" y="155" class="map-pin-label">Москва</text>
-        </a>
+        </g>
+
+        <g class="map-pin map-pin-static">
+          <use href="#map-pin-shape" x="185" y="210"/>
+          <circle cx="185" cy="196" r="4.5" fill="#fff"/>
+          <text x="201" y="200" class="map-pin-label">Минск</text>
+        </g>
 
         <a href="#map-astana" class="map-pin">
           <use href="#map-pin-shape" x="480" y="292"/>
@@ -103,7 +110,7 @@
           <text x="574" y="348" class="map-pin-label">Алматы</text>
         </a>
       </svg>
-      <figcaption>4 точки присутствия HALI — 2 в Казахстане, 2 в России</figcaption>
+      <figcaption>5 точек присутствия HALI — 2 в Казахстане, 2 в России, 1 в Беларуси</figcaption>
     </figure>
   </div>
 </section>
@@ -155,6 +162,13 @@
           </div>
         </div>
         <div class="contact-info-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <h3>Склад в Минске</h3>
+            <p>Беларусь — точный адрес уточняйте у менеджера</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
           <div>
             <h3>Режим работы</h3>
@@ -167,12 +181,6 @@
         </div>
         <div id="map-astana" class="map-placeholder mt-40">
           <iframe src="https://maps.google.com/maps?q=51.138960,71.367127&t=&z=17&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — HALI Астана"></iframe>
-        </div>
-        <div id="map-moscow" class="map-placeholder mt-40">
-          <iframe src="https://maps.google.com/maps?q=Москва&t=&z=10&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — склад HALI Москва"></iframe>
-        </div>
-        <div id="map-spb" class="map-placeholder mt-40">
-          <iframe src="https://maps.google.com/maps?q=Санкт-Петербург&t=&z=10&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Карта — склад HALI Санкт-Петербург"></iframe>
         </div>
       </div>
 
@@ -258,6 +266,7 @@
           <li><strong>Астана</strong>ул. Омарова 21/1</li>
           <li><strong>Москва</strong>склад (Россия)</li>
           <li><strong>Санкт-Петербург</strong>склад (Россия)</li>
+          <li><strong>Минск</strong>склад (Беларусь)</li>
         </ul>
       </div>
     </div>
