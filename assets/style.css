@@ -207,22 +207,27 @@ button{font-family:inherit;cursor:pointer;border:none}
   display:block;
   overflow:visible;
 }
-.locations-map .land-shape{
-  fill:#dfe2f5;
-  stroke:#aeb6e6;
+.locations-map .country-shape{
   stroke-width:2;
-  filter:drop-shadow(0 14px 24px rgba(20,26,110,0.12));
+  filter:drop-shadow(0 10px 20px rgba(20,26,110,0.10));
 }
+.locations-map .country-russia{fill:#f6c9c9;stroke:#dd9f9f}
+.locations-map .country-kazakhstan{fill:#f8dda0;stroke:#e3bd79}
+.locations-map .country-belarus{fill:#c9e8c2;stroke:#9ecf92}
 .locations-map .map-country-label{
   font-family:'Inter',sans-serif;
   font-weight:800;
-  font-size:34px;
-  fill:#b7bde3;
+  font-size:30px;
+  fill:rgba(20,26,110,0.28);
   text-anchor:middle;
   letter-spacing:3px;
 }
 .locations-map .map-country-label-sm{
-  font-size:22px;
+  font-size:20px;
+}
+.locations-map .map-country-label-xs{
+  font-size:13px;
+  letter-spacing:1.5px;
 }
 .map-pin{cursor:pointer}
 .map-pin-static{cursor:default}
@@ -251,8 +256,9 @@ button{font-family:inherit;cursor:pointer;border:none}
 }
 
 @media(max-width:640px){
-  .locations-map .map-country-label{font-size:24px}
-  .locations-map .map-country-label-sm{font-size:16px}
+  .locations-map .map-country-label{font-size:22px}
+  .locations-map .map-country-label-sm{font-size:15px}
+  .locations-map .map-country-label-xs{font-size:10px}
   .map-pin-label{font-size:12px}
 }
 
