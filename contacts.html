@@ -55,59 +55,72 @@
 
     <figure class="locations-map">
       <svg viewBox="0 0 800 460" role="img" aria-label="Карта складов и шоурумов HALI: Алматы, Астана, Москва, Санкт-Петербург, Минск">
-        <path class="land-shape" d="M 160,135
-          Q 180,90 230,70
-          Q 280,50 340,55
-          Q 400,60 460,75
-          Q 520,90 570,115
-          Q 620,140 640,180
-          Q 660,220 645,260
-          Q 630,300 615,330
-          Q 600,360 570,380
-          Q 540,400 500,405
-          Q 460,410 420,400
-          Q 380,390 340,375
-          Q 300,360 260,340
-          Q 220,320 190,290
-          Q 160,260 150,220
-          Q 140,180 160,135 Z"/>
+        <path class="country-shape country-russia" d="M 170,130
+          Q 155,65 250,40
+          Q 360,10 490,22
+          Q 610,15 710,55
+          Q 775,80 765,145
+          Q 758,195 700,215
+          Q 600,238 490,222
+          Q 390,236 290,218
+          Q 210,205 178,168
+          Q 165,150 170,130 Z"/>
 
-        <text x="470" y="150" class="map-country-label">РОССИЯ</text>
-        <text x="470" y="345" class="map-country-label map-country-label-sm">КАЗАХСТАН</text>
-        <text x="175" y="245" class="map-country-label map-country-label-sm">БЕЛАРУСЬ</text>
+        <path class="country-shape country-kazakhstan" d="M 305,258
+          Q 293,228 345,217
+          Q 425,202 525,212
+          Q 625,202 695,227
+          Q 745,248 738,288
+          Q 732,322 682,338
+          Q 592,358 500,348
+          Q 410,358 340,338
+          Q 296,322 292,288
+          Q 290,270 305,258 Z"/>
+
+        <path class="country-shape country-belarus" d="M 72,185
+          Q 65,145 112,128
+          Q 162,113 198,138
+          Q 218,160 206,192
+          Q 195,222 153,230
+          Q 103,236 78,210
+          Q 68,200 72,185 Z"/>
+
+        <text x="600" y="100" class="map-country-label">РОССИЯ</text>
+        <text x="520" y="325" class="map-country-label map-country-label-sm">КАЗАХСТАН</text>
+        <text x="140" y="252" class="map-country-label map-country-label-xs">БЕЛАРУСЬ</text>
 
         <defs>
           <path id="map-pin-shape" d="M0,2 C-9,2 -16,-5 -16,-14 C-16,-24 -8,-32 0,-32 C8,-32 16,-24 16,-14 C16,-5 9,2 0,2 Z"/>
         </defs>
 
         <g class="map-pin map-pin-static">
-          <use href="#map-pin-shape" x="300" y="100"/>
-          <circle cx="300" cy="86" r="4.5" fill="#fff"/>
-          <text x="316" y="90" class="map-pin-label">Санкт-Петербург</text>
+          <use href="#map-pin-shape" x="260" y="75"/>
+          <circle cx="260" cy="61" r="4.5" fill="#fff"/>
+          <text x="276" y="65" class="map-pin-label">Санкт-Петербург</text>
         </g>
 
         <g class="map-pin map-pin-static">
-          <use href="#map-pin-shape" x="345" y="165"/>
-          <circle cx="345" cy="151" r="4.5" fill="#fff"/>
-          <text x="361" y="155" class="map-pin-label">Москва</text>
+          <use href="#map-pin-shape" x="340" y="135"/>
+          <circle cx="340" cy="121" r="4.5" fill="#fff"/>
+          <text x="356" y="125" class="map-pin-label">Москва</text>
         </g>
 
         <g class="map-pin map-pin-static">
-          <use href="#map-pin-shape" x="185" y="210"/>
-          <circle cx="185" cy="196" r="4.5" fill="#fff"/>
-          <text x="201" y="200" class="map-pin-label">Минск</text>
+          <use href="#map-pin-shape" x="140" y="175"/>
+          <circle cx="140" cy="161" r="4.5" fill="#fff"/>
+          <text x="156" y="165" class="map-pin-label">Минск</text>
         </g>
 
         <a href="#map-astana" class="map-pin">
-          <use href="#map-pin-shape" x="480" y="292"/>
-          <circle cx="480" cy="278" r="4.5" fill="#fff"/>
-          <text x="496" y="282" class="map-pin-label">Астана</text>
+          <use href="#map-pin-shape" x="430" y="280"/>
+          <circle cx="430" cy="266" r="4.5" fill="#fff"/>
+          <text x="446" y="270" class="map-pin-label">Астана</text>
         </a>
 
         <a href="#map-almaty" class="map-pin">
-          <use href="#map-pin-shape" x="558" y="358"/>
-          <circle cx="558" cy="344" r="4.5" fill="#fff"/>
-          <text x="574" y="348" class="map-pin-label">Алматы</text>
+          <use href="#map-pin-shape" x="630" y="320"/>
+          <circle cx="630" cy="306" r="4.5" fill="#fff"/>
+          <text x="646" y="310" class="map-pin-label">Алматы</text>
         </a>
       </svg>
       <figcaption>5 точек присутствия HALI — 2 в Казахстане, 2 в России, 1 в Беларуси</figcaption>
