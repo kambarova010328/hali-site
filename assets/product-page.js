@@ -69,23 +69,56 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const images = (product.images && product.images.length) ? product.images : ['assets/logo.png'];
   const mainImg = document.getElementById('pd-main-image');
+  const galleryMain = document.getElementById('pd-gallery-main');
+  const videoFrame = document.getElementById('pd-video-frame');
   mainImg.src = images[0];
   mainImg.alt = product.name;
 
   const thumbsWrap = document.getElementById('pd-thumbs');
+
+  function clearVideoThumbActive() {
+    const activeVideo = thumbsWrap.querySelector('.thumb-video.active');
+    if (activeVideo) activeVideo.classList.remove('active');
+  }
+
+  function showImage(src, thumbEl) {
+    mainImg.src = src;
+    galleryMain.classList.remove('video-active');
+    videoFrame.innerHTML = '';
+    thumbsWrap.querySelectorAll('img').forEach(function (el) { el.classList.remove('active'); });
+    clearVideoThumbActive();
+    if (thumbEl) thumbEl.classList.add('active');
+  }
+
   images.forEach(function (src, i) {
     const t = document.createElement('img');
     t.src = src;
     t.alt = product.name + ' фото ' + (i + 1);
     if (i === 0) t.classList.add('active');
-    t.addEventListener('click', function () {
-      mainImg.src = src;
-      thumbsWrap.querySelectorAll('img').forEach(function (el) { el.classList.remove('active'); });
-      t.classList.add('active');
-    });
+    t.addEventListener('click', function () { showImage(src, t); });
     thumbsWrap.appendChild(t);
   });
-  if (images.length < 2) thumbsWrap.style.display = 'none';
+
+  if (product.video) {
+    const vThumb = document.createElement('div');
+    vThumb.className = 'thumb-video';
+    vThumb.setAttribute('role', 'button');
+    vThumb.setAttribute('aria-label', 'Видеообзор');
+    vThumb.innerHTML =
+      '<img src="https://i.ytimg.com/vi/' + product.video + '/hqdefault.jpg" alt="Видеообзор ' + product.name + '">' +
+      '<span class="play-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>';
+    vThumb.addEventListener('click', function () {
+      thumbsWrap.querySelectorAll('img').forEach(function (el) { el.classList.remove('active'); });
+      vThumb.classList.add('active');
+      galleryMain.classList.add('video-active');
+      videoFrame.innerHTML =
+        '<iframe src="https://www.youtube.com/embed/' + product.video + '?autoplay=1" title="' +
+        product.name + ' — видеообзор" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    });
+    thumbsWrap.appendChild(vThumb);
+  }
+
+  if (images.length < 2 && !product.video) thumbsWrap.style.display = 'none';
 
   document.getElementById('pd-kaspi-link').href = product.kaspiUrl;
 
