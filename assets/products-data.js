@@ -8,6 +8,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  2770,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6050s-60h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-152055813/",
+                                                                                                  "video":  "t4_pc-d97m0",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p9d/p53/146326225.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p80/p53/146326226.jpg?format=gallery-medium",
@@ -99,6 +100,7 @@ window.PRODUCTS = {
                                                                                                          "installmentPrice":  3083,
                                                                                                          "installmentMonths":  12,
                                                                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-smesitel-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-3mm-141384274/",
+                                                                                                         "video":  "6T2IXyAbvng",
                                                                                                          "images":  [
                                                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p49/p93/82912115.JPG?format=gallery-medium",
                                                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pcb/p8f/107754825.jpg?format=gallery-medium",
@@ -190,6 +192,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  3833,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6846c-68h46h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-166196438/",
+                                                                                                  "video":  "GRffNObmOMA",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pcc/p18/138358452.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p78/p18/138358455.jpg?format=gallery-medium",
@@ -372,6 +375,7 @@ window.PRODUCTS = {
                                                                                                                     "installmentPrice":  3166,
                                                                                                                     "installmentMonths":  12,
                                                                                                                     "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-75h45s-75h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-metallik-162360697/",
+                                                                                                                    "video":  "3jWitiXx7C8",
                                                                                                                     "images":  [
                                                                                                                                    "https://resources.cdn-kaspi.kz/img/m/p/p5c/pbc/149533106.png?format=gallery-medium",
                                                                                                                                    "https://resources.cdn-kaspi.kz/img/m/p/p50/pcc/125088106.jpg?format=gallery-medium",
@@ -465,6 +469,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  1880,
                                                                                                   "installmentMonths":  24,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6045z-60h45h22-sm-nerzhavejuschaja-stal-ton-zolotistyi-166610881/",
+                                                                                                  "video":  "jK0fYOnG3Oo",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pb0/pef/139863743.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pcc/pef/139863744.jpg?format=gallery-medium",
@@ -649,6 +654,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  3090,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-78h48-78h48h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-162708795/",
+                                                                                                  "video":  "Ga5Axm1nJSA",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p5d/p52/146203579.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pb6/pe8/126323203.jpg?format=gallery-medium",
@@ -742,6 +748,7 @@ window.PRODUCTS = {
                                                           "installmentPrice":  2000,
                                                           "installmentMonths":  12,
                                                           "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-210-latun-tsvet-satin-162831191/",
+                                                          "video":  "BoLNolO4JOg",
                                                           "images":  [
                                                                          "https://resources.cdn-kaspi.kz/img/m/p/pf9/p48/129855364.jpg?format=gallery-medium",
                                                                          "https://resources.cdn-kaspi.kz/img/m/p/p3f/p6a/126717118.jpg?format=gallery-medium",
@@ -845,6 +852,7 @@ window.PRODUCTS = {
                                                                            "installmentPrice":  2166,
                                                                            "installmentMonths":  12,
                                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-210-latun-tsvet-chernyi-matovoe-zoloto-155825141/",
+                                                                           "video":  "6LqA9JZYebA",
                                                                            "images":  [
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p90/p9b/100553739.jpg?format=gallery-medium",
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/pec/p98/100553742.jpg?format=gallery-medium",
@@ -948,6 +956,7 @@ window.PRODUCTS = {
                                                                            "installmentPrice":  4460,
                                                                            "installmentMonths":  3,
                                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-553-nerzhavejuschaja-stal-tsvet-grafit-173348370/",
+                                                                           "video":  "MASfPAChLow",
                                                                            "images":  [
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p25/p88/166551346.jpg?format=gallery-medium",
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p41/p88/166551345.jpg?format=gallery-medium",
@@ -1045,6 +1054,7 @@ window.PRODUCTS = {
                                                                          "installmentPrice":  3000,
                                                                          "installmentMonths":  3,
                                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-403-nerzhavejuschaja-stal-tsvet-hrom-141058637/",
+                                                                         "video":  "45e496gimmY",
                                                                          "images":  [
                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pc9/pc6/129481955.jpg?format=gallery-medium",
                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pb5/p54/127063374.jpg?format=gallery-medium",
@@ -1156,6 +1166,7 @@ window.PRODUCTS = {
                                                           "installmentPrice":  3332,
                                                           "installmentMonths":  6,
                                                           "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-2005-latun-tsvet-hrom-143905662/",
+                                                          "video":  "e3wCHqZuS1Q",
                                                           "images":  [
                                                                          "https://resources.cdn-kaspi.kz/img/m/p/p04/p5c/57917962.png?format=gallery-medium",
                                                                          "https://resources.cdn-kaspi.kz/img/m/p/pcc/p5b/57917964.png?format=gallery-medium",
@@ -1259,6 +1270,7 @@ window.PRODUCTS = {
                                                             "installmentPrice":  3332,
                                                             "installmentMonths":  6,
                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-201-latun-tsvet-chernyi-147345326/",
+                                                            "video":  "NYp08xrkbwg",
                                                             "images":  [
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p4a/p83/70473191.png?format=gallery-medium",
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/pbb/p83/70473195.png?format=gallery-medium",
@@ -1362,6 +1374,7 @@ window.PRODUCTS = {
                                                             "installmentPrice":  3665,
                                                             "installmentMonths":  6,
                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-178-latun-tsvet-zolotoi-176090409/",
+                                                            "video":  "Nc31lfUVHBE",
                                                             "images":  [
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p09/pea/175623955.jpg?format=gallery-medium",
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p02/ped/175623961.jpg?format=gallery-medium",
@@ -1449,6 +1462,7 @@ window.PRODUCTS = {
                                                            "installmentPrice":  4165,
                                                            "installmentMonths":  6,
                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-240-latun-tsvet-grafit-177693805/",
+                                                           "video":  "XKSvaPHbDYs",
                                                            "images":  [
                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p17/pe5/181078581.jpg?format=gallery-medium",
                                                                           "https://resources.cdn-kaspi.kz/img/m/p/pc3/pe4/181078584.jpg?format=gallery-medium",
@@ -1542,6 +1556,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  2160,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-101-148326648/",
+                                                       "video":  "GjhxRPKv3aI",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pea/pcf/136416420.jpg?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pfa/pa0/174789422.bin?format=gallery-medium",
@@ -1669,6 +1684,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3083,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-144-174416684/",
+                                                       "video":  "hFW1-IoB9ZI",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pc4/p77/171036083.?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p59/pb9/170400193.jpg?format=gallery-medium",
@@ -1786,6 +1802,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  3750,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-103a-148533357/",
+                                                        "video":  "ZmCN7bfW3NE",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p3a/p66/77935741.JPG?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p21/pe2/174904281.bin?format=gallery-medium",
@@ -1909,6 +1926,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  3333,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-142n-148533406/",
+                                                        "video":  "kfdydo7ixbo",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/pcd/pe9/74428595.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/pb1/pe9/74428596.jpg?format=gallery-medium",
@@ -2111,6 +2129,7 @@ window.PRODUCTS = {
                                              "installmentPrice":  1164,
                                              "installmentMonths":  3,
                                              "kaspiUrl":  "https://kaspi.kz/shop/p/hali-verhnii-dush-0010-140754879/",
+                                             "video":  "lKqmHzEnko8",
                                              "images":  [
                                                             "https://resources.cdn-kaspi.kz/img/m/p/pd0/pf8/64769759.png?format=gallery-medium",
                                                             "https://resources.cdn-kaspi.kz/img/m/p/p58/pfb/64769761.png?format=gallery-medium",
@@ -2194,6 +2213,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  5417,
                                                         "installmentMonths":  24,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-ramnaja-installjatsija-g550b-154876272/",
+                                                        "video":  "uhNY16lxH6s",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p1b/p57/153316898.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p4f/p09/99146573.jpg?format=gallery-medium",
@@ -2267,6 +2287,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  4880,
                                                         "installmentMonths":  24,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-ramnaja-installjatsija-g550h-152706543/",
+                                                        "video":  "myShaz1NyW0",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p94/p1a/153317223.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p66/pb1/88583705.jpg?format=gallery-medium",
@@ -2338,6 +2359,7 @@ window.PRODUCTS = {
                                                          "installmentPrice":  3333,
                                                          "installmentMonths":  24,
                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/hali-ramnaja-installjatsija-gr550h-145743552/",
+                                                         "video":  "MnXJph1zdHM",
                                                          "images":  [
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p26/p76/67715003.png?format=gallery-medium",
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pb7/pac/81464147.JPG?format=gallery-medium",
@@ -2500,6 +2522,7 @@ window.PRODUCTS = {
                                                                     "installmentPrice":  5417,
                                                                     "installmentMonths":  24,
                                                                     "kaspiUrl":  "https://kaspi.kz/shop/p/unitaz-s-installjatsiei-hali-g550bs-sanfarfor-160564627/",
+                                                                    "video":  "uhNY16lxH6s",
                                                                     "images":  [
                                                                                    "https://resources.cdn-kaspi.kz/img/m/p/p70/pea/118428685.jpg?format=gallery-medium",
                                                                                    "https://resources.cdn-kaspi.kz/img/m/p/p54/pea/118428686.jpg?format=gallery-medium",
@@ -2595,6 +2618,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  5000,
                                                         "installmentMonths":  24,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-ramnaja-installjatsija-g550z-169965212/",
+                                                        "video":  "uhNY16lxH6s",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p03/pa9/153369248.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/pe7/pa8/153369249.jpg?format=gallery-medium",
@@ -2828,6 +2852,7 @@ window.PRODUCTS = {
                                                             "installmentPrice":  3375,
                                                             "installmentMonths":  24,
                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/hali-zerkalo-20525-70x70-sm-nastennoe-147098553/",
+                                                            "video":  "l4aCqkcbDIo",
                                                             "images":  [
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p2e/p82/72362063.jpg?format=gallery-medium",
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p4a/p82/72362064.jpg?format=gallery-medium",
@@ -2903,6 +2928,7 @@ window.PRODUCTS = {
                                                                               "installmentPrice":  1330,
                                                                               "installmentMonths":  3,
                                                                               "kaspiUrl":  "https://kaspi.kz/shop/p/udlinitel-dlja-dushevoi-stoiki-300h20-mm-6126002-latun--122268148/",
+                                                                              "video":  "sCeHgNWa1xs",
                                                                               "images":  [
                                                                                              "https://resources.cdn-kaspi.kz/img/m/p/ha5/h19/86755096723486.jpg?format=gallery-medium",
                                                                                              "https://resources.cdn-kaspi.kz/img/m/p/hfe/h03/86755096789022.jpg?format=gallery-medium",
@@ -2951,6 +2977,7 @@ window.PRODUCTS = {
                                                                                                                "installmentPrice":  3083,
                                                                                                                "installmentMonths":  12,
                                                                                                                "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-smesitel-463175529-50h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-141384269/",
+                                                                                                               "video":  "58LW_KajkN0",
                                                                                                                "images":  [
                                                                                                                               "https://resources.cdn-kaspi.kz/img/m/p/p47/pef/146836887.jpg?format=gallery-medium",
                                                                                                                               "https://resources.cdn-kaspi.kz/img/m/p/pb1/pf2/146836897.jpg?format=gallery-medium",
@@ -3042,6 +3069,7 @@ window.PRODUCTS = {
                                                                                                                            "installmentPrice":  2250,
                                                                                                                            "installmentMonths":  24,
                                                                                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-smesitel-141384274-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-3mm-144869372/",
+                                                                                                                           "video":  "Ugld5nMglIc",
                                                                                                                            "images":  [
                                                                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p6d/p83/62961601.png?format=gallery-medium",
                                                                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p51/p83/62961602.png?format=gallery-medium",
@@ -3133,6 +3161,7 @@ window.PRODUCTS = {
                                                                                                                 "installmentPrice":  2167,
                                                                                                                 "installmentMonths":  24,
                                                                                                                 "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-smesitel-hali-10-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-144875880/",
+                                                                                                                "video":  "Ugld5nMglIc",
                                                                                                                 "images":  [
                                                                                                                                "https://resources.cdn-kaspi.kz/img/m/p/paf/p07/62961759.png?format=gallery-medium",
                                                                                                                                "https://resources.cdn-kaspi.kz/img/m/p/p43/p05/62961760.png?format=gallery-medium",
@@ -3220,6 +3249,7 @@ window.PRODUCTS = {
                                                                                                                                              "installmentPrice":  3666,
                                                                                                                                              "installmentMonths":  12,
                                                                                                                                              "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-smesitel-s-shumopodavleniem-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-metallik-3mm-144881113/",
+                                                                                                                                             "video":  "xHOe-UqdHOc",
                                                                                                                                              "images":  [
                                                                                                                                                             "https://resources.cdn-kaspi.kz/img/m/p/pd7/p0e/62961736.png?format=gallery-medium",
                                                                                                                                                             "https://resources.cdn-kaspi.kz/img/m/p/p9e/p0e/62961738.png?format=gallery-medium",
@@ -3311,6 +3341,7 @@ window.PRODUCTS = {
                                                                                                                          "installmentPrice":  3666,
                                                                                                                          "installmentMonths":  12,
                                                                                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-smesitel-hali-10-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-metallik-144925932/",
+                                                                                                                         "video":  "xoZfR9mSiGs",
                                                                                                                          "images":  [
                                                                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p3a/pd5/62961572.png?format=gallery-medium",
                                                                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p1d/pd5/62961573.png?format=gallery-medium",
@@ -3398,6 +3429,7 @@ window.PRODUCTS = {
                                                                                                                                 "installmentPrice":  3666,
                                                                                                                                 "installmentMonths":  12,
                                                                                                                                 "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-smesitel-463175529-50h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-metallik-145983373/",
+                                                                                                                                "video":  "xoZfR9mSiGs",
                                                                                                                                 "images":  [
                                                                                                                                                "https://resources.cdn-kaspi.kz/img/m/p/p64/pe9/65916567.png?format=gallery-medium",
                                                                                                                                                "https://resources.cdn-kaspi.kz/img/m/p/p25/pec/65916571.jpg?format=gallery-medium",
@@ -3489,6 +3521,7 @@ window.PRODUCTS = {
                                                                                                                        "installmentPrice":  2250,
                                                                                                                        "installmentMonths":  24,
                                                                                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-smesitel-463175529-50h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-145983379/",
+                                                                                                                       "video":  "_WdE-78M99g",
                                                                                                                        "images":  [
                                                                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pc7/pef/65916583.png?format=gallery-medium",
                                                                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pff/pef/65916585.jpg?format=gallery-medium",
@@ -3580,6 +3613,7 @@ window.PRODUCTS = {
                                                                                                        "installmentPrice":  3332,
                                                                                                        "installmentMonths":  6,
                                                                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-463175539-vreznaja-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-146053994/",
+                                                                                                       "video":  "CvP25Jw5QHc",
                                                                                                        "images":  [
                                                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p68/pec/66163716.png?format=gallery-medium",
                                                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p29/pef/66163720.png?format=gallery-medium",
@@ -3671,6 +3705,7 @@ window.PRODUCTS = {
                                                                                                                        "installmentPrice":  3333,
                                                                                                                        "installmentMonths":  12,
                                                                                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-463175539-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-metallik-157289007/",
+                                                                                                                       "video":  "1cmZRuZ9sRg",
                                                                                                                        "images":  [
                                                                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p39/p83/143531304.jpg?format=gallery-medium",
                                                                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p65/pbb/106329450.jpg?format=gallery-medium",
@@ -3758,6 +3793,7 @@ window.PRODUCTS = {
                                                                                                              "installmentPrice":  2333,
                                                                                                              "installmentMonths":  24,
                                                                                                              "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6045s-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-zolotistyi-157461141/",
+                                                                                                             "video":  "albeMor0fwg",
                                                                                                              "images":  [
                                                                                                                             "https://resources.cdn-kaspi.kz/img/m/p/pe1/p11/110825422.jpg?format=gallery-medium",
                                                                                                                             "https://resources.cdn-kaspi.kz/img/m/p/p88/p82/106976418.jpg?format=gallery-medium",
@@ -3845,6 +3881,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  2250,
                                                                                                   "installmentMonths":  24,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-5045s-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-157462503/",
+                                                                                                  "video":  "albeMor0fwg",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pf7/p46/110825371.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pa4/p37/106981348.jpg?format=gallery-medium",
@@ -3932,6 +3969,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  3333,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6045g-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-157484705/",
+                                                                                                  "video":  "1cmZRuZ9sRg",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p33/p18/148498809.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p9f/p1a/148498810.jpg?format=gallery-medium",
@@ -4023,6 +4061,7 @@ window.PRODUCTS = {
                                                                                                            "installmentPrice":  2333,
                                                                                                            "installmentMonths":  24,
                                                                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-75h45s-75h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-162361675/",
+                                                                                                           "video":  "RBRh6nOVg0o",
                                                                                                            "images":  [
                                                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p31/pea/128109931.jpg?format=gallery-medium",
                                                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p32/pb3/125091211.jpg?format=gallery-medium",
@@ -4114,6 +4153,7 @@ window.PRODUCTS = {
                                                                                                          "installmentPrice":  2333,
                                                                                                          "installmentMonths":  24,
                                                                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-75h45s-75h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-satin-162374634/",
+                                                                                                         "video":  "R9i-ka5nTDU",
                                                                                                          "images":  [
                                                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pde/pca/128110023.jpg?format=gallery-medium",
                                                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pd6/pb4/125144246.jpg?format=gallery-medium",
@@ -4205,6 +4245,7 @@ window.PRODUCTS = {
                                                                                                    "installmentPrice":  3166,
                                                                                                    "installmentMonths":  12,
                                                                                                    "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-75h45b-75h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-162393761/",
+                                                                                                   "video":  "5CwJ97r_ZMc",
                                                                                                    "images":  [
                                                                                                                   "https://resources.cdn-kaspi.kz/img/m/p/p44/p19/146032258.jpg?format=gallery-medium",
                                                                                                                   "https://resources.cdn-kaspi.kz/img/m/p/pad/pf6/125216166.jpg?format=gallery-medium",
@@ -4296,6 +4337,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  2666,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-50h40-50h40h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-162831246/",
+                                                                                                  "video":  "5CwJ97r_ZMc",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pd1/p7d/146203389.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pc1/pa0/126717862.jpg?format=gallery-medium",
@@ -4387,6 +4429,7 @@ window.PRODUCTS = {
                                                                                                         "installmentPrice":  4166,
                                                                                                         "installmentMonths":  12,
                                                                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6846c-68h46h22-sm-nerzhavejuschaja-stal-ton-chernyi-metallik-166196433/",
+                                                                                                        "video":  "6VAZaKYnbMM",
                                                                                                         "images":  [
                                                                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p60/p22/138358428.jpg?format=gallery-medium",
                                                                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p44/p22/138358429.jpg?format=gallery-medium",
@@ -4478,6 +4521,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  2317,
                                                                                                   "installmentMonths":  24,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6846s-68h46h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-166196441/",
+                                                                                                  "video":  "sDbgbRVs2lI",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pf9/p11/138358472.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pdd/p11/138358473.jpg?format=gallery-medium",
@@ -4565,6 +4609,7 @@ window.PRODUCTS = {
                                                                                              "installmentPrice":  4166,
                                                                                              "installmentMonths":  12,
                                                                                              "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6846c-68h46h22-sm-nerzhavejuschaja-stal-ton-satin-166718128/",
+                                                                                             "video":  "XsaLuKFWaqA",
                                                                                              "images":  [
                                                                                                             "https://resources.cdn-kaspi.kz/img/m/p/p77/p31/140191914.jpg?format=gallery-medium",
                                                                                                             "https://resources.cdn-kaspi.kz/img/m/p/p29/p2e/140191923.jpg?format=gallery-medium",
@@ -4656,6 +4701,7 @@ window.PRODUCTS = {
                                                                                                         "installmentPrice":  2333,
                                                                                                         "installmentMonths":  24,
                                                                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-6846s-68h46h22-sm-nerzhavejuschaja-stal-ton-satin-stal-satin-166718195/",
+                                                                                                        "video":  "6VAZaKYnbMM",
                                                                                                         "images":  [
                                                                                                                        "https://resources.cdn-kaspi.kz/img/m/p/pa5/pc3/141384261.jpg?format=gallery-medium",
                                                                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p89/pc3/141384262.jpg?format=gallery-medium",
@@ -5020,6 +5066,7 @@ window.PRODUCTS = {
                                                                                                       "installmentPrice":  3833,
                                                                                                       "installmentMonths":  12,
                                                                                                       "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-50-45-2mm-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-177702507/",
+                                                                                                      "video":  "zVbMw1pal0k",
                                                                                                       "images":  [
                                                                                                                      "https://resources.cdn-kaspi.kz/img/m/p/p34/p19/181113056.jpg?format=gallery-medium",
                                                                                                                      "https://resources.cdn-kaspi.kz/img/m/p/p3b/p16/181113062.jpg?format=gallery-medium",
@@ -5111,6 +5158,7 @@ window.PRODUCTS = {
                                                                                                   "installmentPrice":  4000,
                                                                                                   "installmentMonths":  12,
                                                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/kuhonnaja-moika-hali-60-45-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-177702514/",
+                                                                                                  "video":  "zVbMw1pal0k",
                                                                                                   "images":  [
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p36/p0c/181113090.jpg?format=gallery-medium",
                                                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/pe1/p0b/181113093.jpg?format=gallery-medium",
@@ -5194,6 +5242,7 @@ window.PRODUCTS = {
                                                                             "installmentPrice":  3330,
                                                                             "installmentMonths":  3,
                                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-403-nerzhavejuschaja-stal-tsvet-chernyi-141058540/",
+                                                                            "video":  "Uw_0pr13DKY",
                                                                             "images":  [
                                                                                            "https://resources.cdn-kaspi.kz/img/m/p/pba/pd5/129481589.jpg?format=gallery-medium",
                                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p12/p29/127047258.jpg?format=gallery-medium",
@@ -5305,6 +5354,7 @@ window.PRODUCTS = {
                                                                   "installmentPrice":  2999,
                                                                   "installmentMonths":  6,
                                                                   "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-225444815-latun-tsvet-chernyi-141124489/",
+                                                                  "video":  "xrC_4aMPYI4",
                                                                   "images":  [
                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p2e/pa1/52651353.png?format=gallery-medium",
                                                                                  "https://resources.cdn-kaspi.kz/img/m/p/p12/pa1/52651354.png?format=gallery-medium",
@@ -5404,6 +5454,7 @@ window.PRODUCTS = {
                                                                        "installmentPrice":  1664,
                                                                        "installmentMonths":  3,
                                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-207-abs-plastik-tsvet-chernyi-hrom-148248455/",
+                                                                       "video":  "cuONZvfN4QI",
                                                                        "images":  [
                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p31/p33/88599932.png?format=gallery-medium",
                                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p6b/p24/73424401.png?format=gallery-medium",
@@ -5497,6 +5548,7 @@ window.PRODUCTS = {
                                                                    "installmentPrice":  2166,
                                                                    "installmentMonths":  12,
                                                                    "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-210-latun-tsvet-chernyi-grafit-149479055/",
+                                                                   "video":  "lz9Sqt42H38",
                                                                    "images":  [
                                                                                   "https://resources.cdn-kaspi.kz/img/m/p/p8b/pdd/179248287.jpg?format=gallery-medium",
                                                                                   "https://resources.cdn-kaspi.kz/img/m/p/p8b/pdd/179248290.jpg?format=gallery-medium",
@@ -5600,6 +5652,7 @@ window.PRODUCTS = {
                                                                            "installmentPrice":  2665,
                                                                            "installmentMonths":  6,
                                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-209-nerzhavejuschaja-stal-tsvet-grafit-156046049/",
+                                                                           "video":  "kWyZGS6goKQ",
                                                                            "images":  [
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p2f/p20/101425016.jpg?format=gallery-medium",
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p12/p20/101425017.jpg?format=gallery-medium",
@@ -5691,6 +5744,7 @@ window.PRODUCTS = {
                                                                          "installmentPrice":  4330,
                                                                          "installmentMonths":  3,
                                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-553-nerzhavejuschaja-stal-tsvet-hrom-173335343/",
+                                                                         "video":  "oHwyTBALJk8",
                                                                          "images":  [
                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p47/pe2/166512190.jpg?format=gallery-medium",
                                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p63/pe2/166512191.jpg?format=gallery-medium",
@@ -5782,6 +5836,7 @@ window.PRODUCTS = {
                                                                             "installmentPrice":  4330,
                                                                             "installmentMonths":  3,
                                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-553-nerzhavejuschaja-stal-tsvet-chernyi-173347226/",
+                                                                            "video":  "DcuRbqr0dIA",
                                                                             "images":  [
                                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p76/p68/166546377.jpg?format=gallery-medium",
                                                                                            "https://resources.cdn-kaspi.kz/img/m/p/pa0/p6e/166546391.jpg?format=gallery-medium",
@@ -5873,6 +5928,7 @@ window.PRODUCTS = {
                                                             "installmentPrice":  3665,
                                                             "installmentMonths":  6,
                                                             "kaspiUrl":  "https://kaspi.kz/shop/p/smesitel-hali-178-latun-tsvet-chernyi-176090325/",
+                                                            "video":  "7QCF_H0cZP4",
                                                             "images":  [
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/p25/p46/175623691.jpg?format=gallery-medium",
                                                                            "https://resources.cdn-kaspi.kz/img/m/p/pd1/p45/175623694.jpg?format=gallery-medium",
@@ -5960,6 +6016,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3333,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-140-141255759/",
+                                                       "video":  "46GgnAvUZEM",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pad/p12/83096332.png?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p58/p12/83096335.png?format=gallery-medium",
@@ -6083,6 +6140,7 @@ window.PRODUCTS = {
                                                          "installmentPrice":  3817,
                                                          "installmentMonths":  12,
                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-14100-144273076/",
+                                                         "video":  "pAXGiV-kKkc",
                                                          "images":  [
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p86/p84/65714571.PNG?format=gallery-medium",
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pef/p65/62211470.png?format=gallery-medium",
@@ -6210,6 +6268,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3833,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-103-148515151/",
+                                                       "video":  "Yn5aYNywSew",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p5e/p6f/74603523.jpg?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p30/p48/74339366.jpg?format=gallery-medium",
@@ -6329,6 +6388,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3500,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-142-148694343/",
+                                                       "video":  "HnWf1EweQEs",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pef/p10/74931564.jpg?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p0c/p11/74931565.jpg?format=gallery-medium",
@@ -6448,6 +6508,7 @@ window.PRODUCTS = {
                                                                            "installmentPrice":  2741,
                                                                            "installmentMonths":  12,
                                                                            "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-101s-smesitel-v-podarok-149780394/",
+                                                                           "video":  "F4idVP-zd9E",
                                                                            "images":  [
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/pc2/pc8/136416443.jpg?format=gallery-medium",
                                                                                           "https://resources.cdn-kaspi.kz/img/m/p/p67/pb0/78729693.jpg?format=gallery-medium",
@@ -6567,6 +6628,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  2741,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-101g-155280099/",
+                                                        "video":  "Px7G2rHJNdA",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p15/p04/136416173.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p7a/p9b/98336073.jpg?format=gallery-medium",
@@ -6690,6 +6752,7 @@ window.PRODUCTS = {
                                                          "installmentPrice":  2833,
                                                          "installmentMonths":  12,
                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-101gf-172476752/",
+                                                         "video":  "Px7G2rHJNdA",
                                                          "images":  [
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/pdd/pda/163122147.jpg?format=gallery-medium",
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p81/pdd/163122150.jpg?format=gallery-medium",
@@ -6944,6 +7007,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3500,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-123-173047164/",
+                                                       "video":  "mB_slOaRXDA",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pa8/pfc/169578672.jpg?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pa8/pfc/169578678.jpg?format=gallery-medium",
@@ -7059,6 +7123,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  3583,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-123f-173047213/",
+                                                        "video":  "HdH2rip_iNM",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p67/pfd/169590436.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p67/pfd/169590437.jpg?format=gallery-medium",
@@ -7174,6 +7239,7 @@ window.PRODUCTS = {
                                                                "installmentPrice":  3500,
                                                                "installmentMonths":  12,
                                                                "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-123-chernyi-173102791/",
+                                                               "video":  "CygUEls44s4",
                                                                "images":  [
                                                                               "https://resources.cdn-kaspi.kz/img/m/p/pb4/p61/165720996.jpg?format=gallery-medium",
                                                                               "https://resources.cdn-kaspi.kz/img/m/p/p80/p9e/165721027.jpg?format=gallery-medium",
@@ -7289,6 +7355,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  3583,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-123f-173102852/",
+                                                        "video":  "CygUEls44s4",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/pd1/p9a/165721311.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p42/p9b/165721315.jpg?format=gallery-medium",
@@ -7404,6 +7471,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3083,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-144-173169313/",
+                                                       "video":  "9snUeM1ZWik",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/p0c/p78/165964344.jpg?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pb7/p77/165964347.jpg?format=gallery-medium",
@@ -7519,6 +7587,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  3166,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-144f-173169315/",
+                                                        "video":  "9snUeM1ZWik",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p54/p71/165964363.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p00/p71/165964366.jpg?format=gallery-medium",
@@ -7642,6 +7711,7 @@ window.PRODUCTS = {
                                                         "installmentPrice":  3583,
                                                         "installmentMonths":  12,
                                                         "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-142n-172481793/",
+                                                        "video":  "kfdydo7ixbo",
                                                         "images":  [
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p0c/pd9/163162551.jpg?format=gallery-medium",
                                                                        "https://resources.cdn-kaspi.kz/img/m/p/p9b/pd8/163162555.jpg?format=gallery-medium",
@@ -7765,6 +7835,7 @@ window.PRODUCTS = {
                                                        "installmentPrice":  3083,
                                                        "installmentMonths":  12,
                                                        "kaspiUrl":  "https://kaspi.kz/shop/p/hali-dushevoi-nabor-garnitur-144-174416620/",
+                                                       "video":  "PWT_vUpLjUk",
                                                        "images":  [
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pdb/p77/171035555.jpg?format=gallery-medium",
                                                                       "https://resources.cdn-kaspi.kz/img/m/p/pc5/p1d/170399815.jpg?format=gallery-medium",
@@ -8042,6 +8113,7 @@ window.PRODUCTS = {
                                                          "installmentPrice":  5417,
                                                          "installmentMonths":  24,
                                                          "kaspiUrl":  "https://kaspi.kz/shop/p/hali-ramnaja-installjatsija-gr550g-150297000/",
+                                                         "video":  "uhNY16lxH6s",
                                                          "images":  [
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p1f/p10/153317255.jpg?format=gallery-medium",
                                                                         "https://resources.cdn-kaspi.kz/img/m/p/p4f/p9c/81464191.JPG?format=gallery-medium",
