@@ -4,7 +4,7 @@
 window.STOCK = {
     "kuhonnaja-moika-hali-6050s-60h50h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-152055813":  "low_stock",
     "kuhonnaja-moika-hali-smesitel-60h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-3mm-141384274":  "in_stock",
-    "kuhonnaja-moika-hali-6846c-68h46h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-166196438":  "out_of_stock",
+    "kuhonnaja-moika-hali-6846c-68h46h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-166196438":  "in_stock",
     "kuhonnaja-moika-hali-5045d-50h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-167406662":  "in_stock",
     "kuhonnaja-moika-hali-75h45s-75h45h22-sm-nerzhavejuschaja-stal-ton-grafitovyi-chernyi-metallik-162360697":  "in_stock",
     "kuhonnaja-moika-hali-6045z-60h45h22-sm-nerzhavejuschaja-stal-ton-zolotistyi-166610881":  "out_of_stock",
